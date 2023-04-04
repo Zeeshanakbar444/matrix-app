@@ -1,0 +1,32 @@
+input{
+    margin: 10px;
+    width: 30px;
+   
+}
+.mat1{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mat2{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.matrix{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Result{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    margin-top: 60px;
+    margin-left: 10px;
+}

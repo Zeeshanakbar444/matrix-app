@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Matrix Sum And Subtract App</h1>
+    <div class="main"> <!-- main div -->
+   <form class="matrix" onsubmit="matrixSumSubtract(event) ; return false">
+   <div class="mat1">
+       
+       <label >Matrix 1</label>
+       <br>
+   <input name="m1" type="number" required id="m100">
+   <input name="m1" type="number" required id="m101">
+   <input name="m1" type="number" required id="m102">
+   <br>
+   <input name="m1" type="number" required id="m110">
+   <input name="m1" type="number" required id="m111">
+   <input name="m1" type="number" required id="m112">
+   <br>
+   <input name="m1" type="number" required id="m120">
+   <input name="m1" type="number" required id="m121">
+   <input name="m1" type="number" required id="m122">
+    <br>
+   </div>
+
+  <div class="mat2">
+   <label >Matrix 2</label>
+   <br>
+   <input name="m2" type="number" required id="m200">
+   <input name="m2" type="number" required id="m201">
+   <input name="m2" type="number" required id="m202">
+   <br>
+   <input name="m2" type="number" required id="m210">
+   <input name="m2" type="number" required id="m211">
+   <input name="m2" type="number" required id="m212">
+   <br>
+   <input name="m2" type="number" required id="m220">
+   <input name="m2" type="number" required id="m221">
+   <input name="m2" type="number" required id="m222">
+    <br>
+  </div>
+  <div class="btn">     <!--div for button-->
+<button type="submit">sum</button>
+<button type="submit">subtract</button>
+  </div>
+
+
+</form>
+  <div class="Result">
+   <label >Result</label>
+   <br>
+   <input name="mr" type="number" disabled  id="r00">
+   <input name="mr" type="number" disabled  id="r01">
+   <input name="mr" type="number" disabled  id="r02">
+   <br>
+   <input name="mr" type="number" disabled  id="r10">
+   <input name="mr" type="number" disabled  id="r11">
+   <input name="mr" type="number" disabled  id="r12">
+   <br>
+   <input name="mr" type="number" disabled  id="r20">
+   <input name="mr" type="number" disabled  id="r21">
+   <input name="mr" type="number" disabled  id="r22">
+    
+  </div>
+
+</div>  <!-- main div-->
+
+
+
+
+
+
+    <script src="./app.mjs"></script>
+</body>
+</html>
